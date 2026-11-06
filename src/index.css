@@ -1,0 +1,9 @@
+:root{--bg:#0A0A0D;--surface:#121217;--text:#F5F1EB;--muted:#A4A0AA;--line:rgba(255,255,255,.13);--purple:#9B73FF;--blue:#5F8DFF;--pink:#ED74B7}
+[data-theme="light"]{--bg:#F4F0EB;--surface:#FFFDF9;--text:#17151B;--muted:#716B75;--line:rgba(23,21,27,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif;line-height:1.6;overflow-x:hidden;transition:background-color .4s,color .4s}
+img{display:block;max-width:100%}
+button,input{font:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-stopped{overflow:hidden}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
